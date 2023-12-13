@@ -12,31 +12,23 @@
 
 <body>
   <center>Task Tracker</center>
+
   <div class="container">
     <h3>Task List</h3>
 
-    <div class="task_input">
-      <form id="input_form">
-      <input type="text" placeholder="Task name">
+    <form id="input_form">
+      <input type="text" id="new_task" placeholder="Task name">
       <input type="submit" value="Add">
     </form>
-    </div>
 
     <hr>
-  
+
     <h3>Assigned Tasks</h3>
-    <div class="srch_task">
-      <input type="text" placeholder="Search Tasks">
-    </div>
-    <div class="">
-      <input type="submit" value="Reset">
-    </div>
+    <input type="text" placeholder="Search Tasks">
+    <ul id="tasks">
+    </ul>
+    <button id="reset_btn">Clear Tasks</button>
   </div>
- 
-  
-
-
-
   <script src="js/script.js"></script>
 </body>
 
